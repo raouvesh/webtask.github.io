@@ -1,0 +1,144 @@
+<link 
+ rel="stylesheet"
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+ crossorigin="anonymous"
+>
+<script 
+src="https://code.jquery.com/jquery-2.2.2.min.js" 
+integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" 
+crossorigin="anonymous"></script>
+<script 
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+crossorigin="anonymous"></script>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    </head>
+<img src="C:\Users\dell\OneDrive\Pictures\brownwil camera .jpg" alt="Brownie camera" style="width:30%";>
+<body style="background-color: powderblue;"></body>
+<div class="row">
+    <div class="col-md-3">
+     <span class="sr-only">Four out of Five Stars</span>
+     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+     <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+     <span class="label label-success">61</span>
+    </div>
+    <p class="top-10">
+       <br> The 'Brownie' 
+       <br> Flash B is a box camera taking 2&frac14; × 3&frac14;" 
+       <br> frames on 620 film, made of sheet metal by Kodak Ltd.
+       <br> in England, 1958-60. 
+       <br>A more luxurious version of the Brownie Six-20 Model F, it has a two-speed shutter (1/80, 1/40 +B), a close-focus (5-10ft) lens, a yellow filter and flash sync. The Flash B is very similar to the Brownie Flash IV, adding a two-speed shutter but lacking a tripod bush.
+       </p>
+   </div><!-- end row -->
+   <div class="row">
+    <div class="col-md-12 bottom-rule">
+     <h2 class="product-price">$129.00</h2>
+    </div>
+   </div><!-- end row -->
+   
+   <div class="row add-to-cart">
+    <div class="col-md-5 product-qty">
+     <span class="btn btn-default btn-lg btn-qty">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+     </span>
+     <input class="btn btn-default btn-lg btn-qty" value="1" />
+     <span class="btn btn-default btn-lg btn-qty">
+      <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+     </span>
+    </div>
+    <div class="col-md-4">
+     <button class="btn btn-lg btn-brand btn-full-width">
+      Add to Cart
+     </button>
+    </div>
+   </div><!-- end row -->
+   
+   <div class="row">
+    <div class="col-md-4 text-center">
+     <span class="monospaced">In Stock</span>
+    </div>
+    <div class="col-md-4 col-md-offset-1 text-center">
+     <a class="monospaced" href="#">Add to Shopping List</a>
+    </div>
+   </div><!-- end row -->
+   <div class="row">
+    <div class="col-md-12 bottom-rule top-10"></div>
+   </div><!-- end row -->
+   
+   <div class="row">
+    <div class="col-md-12 top-10">
+     <p>To order by telephone, <a href="tel:9758671035">please call 9758671035</a></p>
+    </div>
+   </div><!-- end row -->
+    
+   
+   As you examine the code, notice that I continue to have nested row elements. I am also continuing to blend or mix Bootstrap classes with custom CSS as I need them. As an example, consider the code for the plus symbol in the product quantity section.
+   
+   <span class="btn btn-default btn-lg btn-qty">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+   </span>
+    
+   
+   The classes “btn,” “btn-default,” and “btn-lg” are all part of Bootstrap. They will make the element look like a button, set its color (default in this case), and make the button large, respectively. The “btn-qty” class is custom CSS specific to this project. It has the singular job of making each of the three quantity buttons, if you will, the same size.
+   
+   .add-to-cart .btn-qty {
+     width: 52px;
+     height: 46px;
+   }
+   <div class="row">
+    <div class="col-md-4 text-center">
+     <span class="monospaced">In Stock</span>
+    </div>
+    <div class="col-md-4 col-md-offset-1 text-center">
+     <a class="monospaced" href="#">Add to Shopping List</a>
+    </div>
+   </div><!-- end row -->
+   <!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+     <a href="#description"
+      aria-controls="description"
+      role="tab"
+      data-toggle="tab"
+     >Description</a>
+    </li>
+    <li role="presentation">
+     <a href="#features"
+      aria-controls="features"
+      role="tab"
+      data-toggle="tab"
+     >Features</a>
+    </li>
+    <li role="presentation">
+     <a href="#notes"
+      aria-controls="notes"
+      role="tab"
+      data-toggle="tab"
+      >Notes</a>
+    </l>
+   </ul>
+   <!-- Tab panes -->
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="description">
+     ...
+    </div>
+    <div role="tabpanel" class="tab-pane top-10" id="features">
+     ...
+    </div>
+    <div role="tabpanel" class="tab-pane" id="notes">
+     ...
+   </div>
+   <div role="tabpanel" class="tab-pane active" id="description">
+   </div>
